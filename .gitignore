@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+env/
+venv/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Measurement exports
+*.csv
+export/
+
+# Python cache
+.pytest_cache/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+
+# Measurement data
+merania/
+
+# Backup files
+backup/
+
+# Local configuration
+config_local.py
