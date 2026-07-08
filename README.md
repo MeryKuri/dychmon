@@ -1,4 +1,4 @@
-# Dychmon
+# DychMon
 ### Prototyp systému na monitorovanie dýchania psov v celkovej anestézii
 
 ## O projekte
