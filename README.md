@@ -18,7 +18,7 @@ Dychmon je prototyp systému na kontinuálne monitorovanie dýchania psov. Proje
 - stretch senzor
 - elastický hrudný pás
 
-## Softwér
+## Softvér
 Projekt je implementovaný v jazyky Python, použité knižnice:
 - NumPy
 - SciPy
