@@ -39,11 +39,18 @@ Architektúra umožňuje rozšírenie systému o nové senzory, algoritmy a funk
 
 ## Inštalácia
 Projekt je určený pre Raspberry Pi s operačným systémom Raspberry Pi OS.
-Pred spustením programu je potrebné nainštalovať požadované Python knižnice uvedené vyššie.
+Pred prvým spustením je potrebné vytvoriť a aktivovať virtuálne prostredie Pythonu a nainštalovať požadované knižnice.
 
 
 ## Spustenie
-Program je možné spustiť jediným príkazom:
+Program sa spúšťa z koreňového adresára projektu.
+Najskôr je potrebné aktivovať virtuálne prostredie:
+
+```bash
+source venv/bin/activate
+```
+
+Následne je možné aplikáciu spustiť príkazom:
 
 ```bash
 python dychmon_gui.py
