@@ -20,9 +20,9 @@ Dychmon je prototyp systému na kontinuálne monitorovanie dýchania psov. Proje
 
 ## Softvér
 Projekt je implementovaný v jazyky Python, použité knižnice:
+- Matplotlib
 - NumPy
 - SciPy
-- Matplotlib
 - Tkinter
 - Adafruit Blinka
 - Adafruit CircuitPython ADS1x15
