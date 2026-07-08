@@ -52,13 +52,7 @@ Skript automaticky vytvorí virtuálne prostredie Pythonu, nainštaluje požadov
 Program je možné spustiť jediným príkazom:
 
 ```bash
-./start.sh
-```
-
-Alternatívne je možné aplikáciu spustiť priamo:
-
-```bash
-python run.py
+python dychmon_gui.py
 ```
 
 ## Spracovanie signálu
