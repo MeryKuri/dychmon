@@ -68,6 +68,16 @@ Program zabezpečuje:
 - grafické zobrazenie dychovej krivky,
 - export nameraných dát do CSV.
 
+## Vstupy a výstupy
+
+### Vstup
+- analógový signál zo stretch senzora digitalizovaný pomocou prevodníka ADS1115.
+
+### Výstup
+- dychová krivka v reálnom čase,
+- aktuálna dychová frekvencia,
+- export nameraných dát do CSV
+
 ## Technická validácia
 Prototyp bol testovaný na siedmich psoch počas celkovej anestézie v podmienkach bežnej veterinárnej praxe.
 
