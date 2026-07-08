@@ -2,7 +2,7 @@
 ### Prototyp systému na monitorovanie dýchania psov v celkovej anestézii
 
 ## O projekte
-Dychmon je prototyp systému na kontinuálne monitorovanie dýchania psov. Projekt vznikol ako súčasť záverečnej práce s cieľom navrhnúť a implementovať cenovo dostupný systém na monitorovanie respiračnej aktivity pomocou elastického hrudného pásu so stretch senzorom. Respiračný signál je spracovávaný v reálnom čase a zobrazený prostedníctvom grafického rozhrania.
+Dychmon je prototyp systému na kontinuálne monitorovanie dýchania psov. Projekt vznikol ako súčasť záverečnej práce s cieľom navrhnúť a implementovať cenovo dostupný systém na monitorovanie respiračnej aktivity pomocou elastického hrudného pásu so stretch senzorom. Respiračný signál je spracovávaný v reálnom čase a zobrazený prostredníctvom grafického rozhrania.
 
 ## Hlavné vlastnosti
 - kontinuálne monitorovanie respiračného signálu
@@ -19,7 +19,7 @@ Dychmon je prototyp systému na kontinuálne monitorovanie dýchania psov. Proje
 - elastický hrudný pás
 
 ## Softvér
-Projekt je implementovaný v jazyky Python, použité knižnice:
+Projekt je implementovaný v programovacom jazyku Python, použité knižnice:
 - Matplotlib
 - NumPy
 - SciPy
@@ -29,10 +29,10 @@ Projekt je implementovaný v jazyky Python, použité knižnice:
 
 ## Architektúra
 Modulárna aplikácia v jazyku Python, hlavné použité moduly: 
-- **gui/** – grafické používateľské rozhranie
-- **measurement/** – zber a spracovanie nameraných dát
-- **sensors/** – komunikácia so senzormi (ADS1115 alebo simulačný režim)
-- **logger/** – zaznamenávanie udalostí a diagnostických informácií
+- **gui.py** – grafické používateľské rozhranie
+- **meranie.py** – zber a spracovanie nameraných dát
+- **sensors.py** – komunikácia so senzormi (ADS1115 alebo simulačný režim)
+- **logger.py** – zaznamenávanie udalostí a diagnostických informácií
 - **config.py** – konfiguračné parametre systému
 
 Architektúra umožňuje rozšírenie systému o nové senzory, algoritmy a funkcie.
@@ -81,7 +81,7 @@ Presnosť merania môže byť ovplyvnená:
 Ďalší vývoj projektu bude zameraný najmä na:
 - detekciu jednotlivých dychových cyklov,
 - alarm pri apnoe,
-- adaptívne spracovanie signálu
+- adaptívne spracovanie signálu,
 - hodnotenie kvality signálu,
 - bezdrôtovú komunikáciu,
 - batériové napájanie,
@@ -89,8 +89,13 @@ Presnosť merania môže byť ovplyvnená:
 - integráciu s veterinárnymi monitorovacími systémami,
 - podporu ďalších fyziologických senzorov.
 
+## Disclaimer
+Projekt predstavuje experimentálny výskumný prototyp vytvorený na akademické účely. Nie je určený na klinické rozhodovanie ani ako certifikovaná zdravotnícka pomôcka.
+
 ## Autor
 doc. MVDr. Mária Kuricová, PhD., MBA
 - Univerzita veterinárskeho lekárstva a farmácie v Košiciach
 - Slovenská republika
 
+## Status
+Aktuálna verzia predstavuje funkčný výskumný prototyp vytvorený ako súčasť záverečnej práce MSc zameranej na návrh a implementáciu systému monitorovania dýchania psov počas celkovej anestézie.
