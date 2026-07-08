@@ -34,19 +34,13 @@ Modulárna aplikácia v jazyku Python, hlavné použité moduly:
 - **sensors/** – komunikácia so senzormi (ADS1115 alebo simulačný režim)
 - **logger/** – zaznamenávanie udalostí a diagnostických informácií
 - **config.py** – konfiguračné parametre systému
-- **run.py** – hlavný spúšťací skript aplikácie
 
 Architektúra umožňuje rozšírenie systému o nové senzory, algoritmy a funkcie.
 
 ## Inštalácia
 Projekt je určený pre Raspberry Pi s operačným systémom Raspberry Pi OS.
-Po stiahnutí repozitára je možné všetky potrebné závislosti nainštalovať pomocou pripraveného skriptu:
-```bash
-chmod +x install_dependencies.sh
-./install_dependencies.sh
-```
+Pred spustením programu je potrebné nainštalovať požadované Python knižnice uvedené vyššie.
 
-Skript automaticky vytvorí virtuálne prostredie Pythonu, nainštaluje požadované knižnice a pripraví systém na spustenie aplikácie.
 
 ## Spustenie
 Program je možné spustiť jediným príkazom:
