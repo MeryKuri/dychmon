@@ -29,7 +29,7 @@ Projekt je implementovaný v programovacom jazyku Python, použité knižnice:
 
 ## Architektúra
 Modulárna aplikácia v jazyku Python, hlavné použité moduly: 
-- **gui.py** – grafické používateľské rozhranie
+- **dychmon_gui.py** – grafické používateľské rozhranie
 - **meranie.py** – zber a spracovanie nameraných dát
 - **sensors.py** – komunikácia so senzormi (ADS1115 alebo simulačný režim)
 - **logger.py** – zaznamenávanie udalostí a diagnostických informácií
